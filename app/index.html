@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<title>Tree Example</title>
+		<style>
+			.node {
+				cursor: pointer;
+			}
+
+			.node circle {
+				fill: #fff;
+				stroke: steelblue;
+				stroke-width: 3px;
+			}
+
+			.node text {
+				font: 12px sans-serif;
+			}
+
+			.link {
+				fill: none;
+				stroke: #ccc;
+				stroke-width: 2px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<button id="openFile" onclick="openFile();">Open File</button>
+		<br />
+
+		<!-- load the d3.js library -->	
+		<script>
+			var remote = require('remote')
+			var dialog = remote.require('dialog')
+			var d3 = require('d3')
+		</script>
+		<script src="../node_modules/d3/d3.min.js"></script>
+		<script src="js/menu.js"></script>
+		<script src="js/tree.js"></script>
+	</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "name": "d3-tree-view",
+  "version": "1.0.0",
+  "description": "Interactive json tree data structure viewer",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^0.36.0"
+  },
+  "dependencies": {
+	"d3": "^3.5.0"
+  }
+}
