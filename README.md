@@ -16,6 +16,8 @@ $ npm start
 ```
 
 ## Licence
-TODO
+
+See LICENSE.
+
 
 Copyright: James Briggs, 2016
