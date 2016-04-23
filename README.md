@@ -1,9 +1,14 @@
-# Call Tree Viewer 
+# cflowviz: Call Tree Visualizer 
 
 ## Overview
 
 A call tree visualiser built using electron and d3.
 Accepts JSON data of a call tree output from e.g Cflow. 
+
+## Requirements
+
+Requires installs of `node` and `npm`.
+
 
 ## How to use
 
